@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.EN-NASSIRY - Portfolio Académique</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body data-bs-spy="scroll" data-bs-target="#main-navbar" data-bs-offset="70">
+
+    <nav id="main-navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">MN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cours">Cours</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#playlist">PlayList</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#polycopies">Polycopiés</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+ 
+    <section id="home" class="hero-section text-center text-light d-flex align-items-center">
+     
+        <div class="container">
+            <img src="photo.png" 
+     class="img-fluid rounded-circle shadow-lg" 
+     alt="Profile Photo"
+     width="250">
+            <h1 class="display-3 fw-bold mb-3">Mohammed EN-NASSIRY</h1>
+            <h3 class="fw-light">Etudiant - Informatique</h3>
+            <p class="lead">Ecole Normal Superieure - Marrakech <br> Université Cadi Ayyad</p>
+            <div class="mt-4">
+                <a href="#" class="btn btn-primary btn-lg mx-2"><i class="fas fa-graduation-cap"></i> Portfolio</a>
+                <a href="#" class="btn btn-outline-light btn-lg mx-2"><i class="fab fa-github"></i> GIT</a>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="cours" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-uppercase border-bottom pb-3">Cours</h2>
+            <div class="row g-4" id="course-list">
+                </div>
+        </div>
+    </section>
+
+    <section id="playlist" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-uppercase border-bottom pb-3">PlayList</h2>
+            <div class="row g-4" id="playlist-list">
+                </div>
+        </div>
+    </section>
+
+    <section id="polycopies" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold text-uppercase border-bottom pb-3">Polycopiés</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <ul class="list-group list-group-flush shadow-sm">
+                        <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                            <span><i class="fas fa-file-pdf text-danger me-2"></i> Python pour les sciences de données</span>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Télécharger</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                            <span><i class="fas fa-file-pdf text-danger me-2"></i> Machine Learning</span>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Télécharger</a>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                            <span><i class="fas fa-file-pdf text-danger me-2"></i> Introduction au développement Web</span>
+                            <a href="#" class="btn btn-sm btn-outline-primary">Télécharger</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-dark text-light py-4 text-center">
+        <div class="container">
+            <div class="mb-3">
+                <a href="#" class="text-light me-3 fs-4"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-light me-3 fs-4"><i class="fab fa-github"></i></a>
+                <a href="#" class="text-light fs-4"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="mb-0">Copyright &copy; 2026 M.EN-NASSIRY. Tous droits réservés.</p>
+        </div>
+    </footer>
+   <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

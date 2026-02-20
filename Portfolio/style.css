@@ -1,0 +1,38 @@
+
+    /* General settings */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(rgba(33, 37, 41, 0.8), rgba(33, 37, 41, 0.9)), url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80') center/cover;
+    height: 100vh;
+    min-height: 600px;
+}
+
+/* Cards Hover Effect */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* Section Headings */
+section h2 {
+    color: #343a40;
+    display: inline-block;
+}
+
+/* Navbar active link highlighting */
+.navbar-nav .nav-link.active {
+    color: #0d6efd !important;
+    font-weight: bold;
+}
+  
